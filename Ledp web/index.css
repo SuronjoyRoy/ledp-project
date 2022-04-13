@@ -1,0 +1,494 @@
+*{margin: 0;
+    padding: 0;
+    }
+    section{
+        padding: 50px 0px;
+    /* This is header section */
+    }
+    .container {
+        width: 1140px;
+        margin: auto;
+    }
+    
+    .nav-bar {
+        display: flex;
+    }
+    
+    .logo-left {
+        width: 300px;
+    }
+    
+    .logo-left img {
+        max-width: 70%;
+    }
+    
+    .menu-right {
+        width: 838px;
+    }
+    .menu-right ul {
+        list-style: none;
+    }
+    
+    .menu-right ul li {
+        float: left;
+    }
+    
+    .menu-right ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        display: block;
+        padding: 38px 25px;
+        color: #222;
+        transition: all 0.5s;
+    }
+    .menu-right ul li:hover a{
+        color: #0f6a3c;
+        text-decoration: underline;
+    }
+    .btn-heder a {
+        text-decoration: none;
+        font-size: 15px;
+        color: #0f6a3c;
+        font-weight: 600;
+    }
+    
+    button.btn-heder {
+        width: 107px;
+        margin-top: 28px;
+        padding: 10px 0;
+        border: 2px solid #0f6a3c;
+        border-radius: 5px;
+    }
+    /* This is header section */
+
+    /* This is slider css start */
+    section.slider-home {
+        background-color: #408458;
+        padding: 100px 0px;
+    }
+    .main-slider {
+        display: flex;
+    }
+    
+    .right-img img {
+        max-width: 50%;
+    }
+    
+    .right-img {
+        text-align: center;
+    }
+    .left-content {
+        width: 100%;
+        margin-left: 100px;
+    }
+    
+    .left-content h1 {
+        font-size: 45px;
+        color: #fff;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .left-content h2 {
+        font-size: 22px;
+        color: #ffffffc2;
+        font-weight: normal;
+    }
+    .button {
+        border: 2px solid #fff;
+        width: 100px;
+        text-align: center;
+        padding: 12px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    
+    .button a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+        transition: all 0.5s;
+    }
+    .button a:hover{
+        color: #5846f9;
+    }
+    /* This is slider css end */
+    /* This is about css start */
+    .home-about {
+        display: flex;
+    }
+    .about-img img {width: 500px;}
+    .about-img {
+        margin-top: 60px;
+    }
+.about-description {
+    margin-top: 50px;
+}
+
+.about-description h3 {
+    font-weight: 600;
+    font-size: 32px;
+    color: #2c4964;
+    margin-bottom: 10px;
+}
+
+p.font-italic {
+    color: #444;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 12px;
+}
+.about-description h4 {
+    color: #444;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.about-description ul li {
+    line-height: 35px;
+    color: #444;
+}
+    /* This is about css end */
+    /* This is counter css start */
+    section.counter-section {
+        background: #24674a;
+    }
+    
+    .counter-wrapper {
+        display: flex;
+        text-align: center;
+    }
+    
+    .counter-1 {
+        width: 250px;
+    }
+    .counter-1 span {
+        font-size: 48px;
+        display: block;
+        color: #fff;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+    }
+    
+    .counter-1 p {
+        padding: 0;
+        margin: 0 0 20px 0;
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+    /* This is counter css end */
+    /*services section css */
+    section.services-section {
+        background-color: #f9f8ff;
+        padding: 90px 0;
+    }
+    
+    .section-title {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    
+    .section-title h2 {
+        font-size: 40px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        position: relative;
+    }
+    .section-title h2::after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 60px;
+        height: 3px;
+        background: #5846f9;
+        left: 540px;
+        bottom: 0;
+    }
+    .services-wrapper {
+        display: flex;
+    }
+    .section-title p {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .single-services img {
+        width: 100%;
+    }
+    
+    .single-services {
+        width: 30%;
+        text-align: center;
+        background-color: #fff;
+        padding-bottom: 80px;
+        padding-top: 50px;
+        margin-right: 25px;
+        margin-left: 12px;
+    }
+    .single-services h2 {
+        font-weight: 600;
+        margin: 10px 0 15px 0;
+        font-size: 30px;
+    }
+    
+    .single-services h2 a {
+        text-decoration: none;
+        color: #2c4964;
+        transition: ease-in-out 0.3s;
+    }
+    .single-services p {
+        line-height: 24px;
+        font-size: 14px;
+        font-family: sans-serif;
+        color: #444;
+    }
+    /* section ledp onlin css */
+    section.ledp-online {
+        padding: 90px 0;
+    }
+    
+    .content-wrapper {
+        display: flex;
+    }
+    
+    .right-content p {
+        font-size: 15px;
+        color: #848484;
+        margin-left: 60px;
+    }
+    
+    .left-icon i {
+        font-size: 48px;
+        float: left;
+        color: #5846f9;
+    }
+    .right-content-img img {
+        width: 100%;
+    }
+    .single-content {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    /* faq css start */
+    section.faq-section {
+        background-color: #3c734f;
+        padding: 100px 0;
+    }
+    
+    section.faq-section .section-title {
+        color: #fff;
+    }
+    .single-faq {
+        width: 80%;
+        text-align: center;
+        background: #fff;
+        padding: 30px 0;
+        border-radius: 8px;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+.left-faq {
+    width: 33%;
+    font-size: 28px;
+    position: absolute;
+    right: 0;
+    left: 43px;
+    color: #8577fb;
+}
+
+.right-faq a {
+    display: block;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 0 30px;
+    outline: none;
+    text-decoration: none;
+}
+
+.right-faq {
+    width: 103%;
+}
+.single-faq button {
+    color: #fff;
+    background-color: #1e7e34;
+    border-color: #1c7430;
+    padding: 10px 15px;
+}
+/* Contact section css start */
+section.contact-section {
+    background-color: #f9f8ff;
+    padding: 90px 0;
+}
+.left-contact {
+    width: 50%;
+    margin-left: 30px;
+}
+
+.single-contact {
+    width: 48%;
+    display: flex;
+    margin-left: 25px;
+}
+
+.contact-wrapper {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.contact-1 {
+    width: 42%;
+}
+
+.contact-2 {
+    width: 41%;
+}
+.info-box {
+    text-align: center;
+    background: #fff;
+    padding: 40px 0;
+}
+
+.info-box i {
+    font-size: 32px;
+    color: #5846f9;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.info-box h3 {
+    font-size: 25px;
+    color: #2c4964;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.info-box p {
+    padding: 0;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 0;
+    color: #444;
+}
+.contact-1 {
+    color: #444444;
+    text-align: center;
+    box-shadow: 0 0 30px rgb(214 215 216 / 60%);
+    padding: 20px 0 30px 0;
+    background: #fff;
+    margin-right: 30px;
+}
+
+.contact-1 i {
+    font-size: 32px;
+    color: #5846f9;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.contact-1 h3 {
+    font-size: 25px;
+    color: #2c4964;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.contact-1 p {
+    padding: 0;
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.contact-2 {
+    color: #444444;
+    text-align: center;
+    box-shadow: 0 0 30px rgb(214 215 216 / 60%);
+    padding: 20px 0 30px 0;
+    background: #fff;
+}
+
+.contact-2 i {
+    font-size: 32px;
+    color: #5846f9;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.contact-2 h3 {
+    font-size: 25px;
+    color: #2c4964;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.contact-2 p {
+    padding: 0;
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.map-contact-wrapp {
+    display: flex;
+}
+
+.left-map {
+    width: 48%;
+}
+
+.right-info {
+    width: 48%;
+    box-shadow: 0 0 30px rgb(214 215 216 / 60%);
+    padding: 30px;
+    background: #fff;
+}
+.form-row {
+    display: flex;
+    text-align: center;
+}
+
+.input {
+    width: 50%;
+}
+.right-info input {
+    padding: 12px 25px;
+}
+.form-group {
+    text-align: center;
+}
+
+.form-group input {}
+
+.form-group input {
+    width: 81%;
+    margin-top: 20px;
+}
+.form-group textarea {
+    width: 90%;
+    margin-top: 15px;
+}
+.cont-button {
+    text-align: center;
+}
+
+.cont-button button {
+    background: #5846f9;
+    border: 0;
+    padding: 15px 25px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+/* footer css start */
+footer {
+    background-color: #39754d;
+    text-align: center;
+    padding: 30px 0;
+    color: #fff;
+}
